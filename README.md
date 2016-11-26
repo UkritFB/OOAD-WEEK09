@@ -82,7 +82,19 @@ class1 *--  class4
 
 
  รูปที่ 5
-  
+ ```
+ @startuml
+class "FAN" as class1
+class "Fanblade"    as class2
+Class "button" as class3
+Class "Cable" as class4
+ 
+class1 *--  class2
+class1 *--  class3
+class1 *--  class4
+
+@enduml
+```
   
   
 ![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuU9oS_HJqDBLLN1Bp4lAIKn9BOQB99MMbEJdmRdEYKavgLmEgNafG7q0)
