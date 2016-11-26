@@ -62,7 +62,19 @@ class1 *--  class4
 
 
  รูปที่ 4
-  
+```
+@startuml
+class "LAMP" as class1
+class "Cable"    as class2
+Class "electrode" as class3
+Class "lamp" as class4
+ 
+class1 *--  class2
+class1 *--  class3
+class1 *--  class4
+
+@enduml
+```
   
   
 ![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuV9nz0rGqDBLLN1EJCf9HN1JSrAJIuhoKv24SX9p2xWSKlDIWFe0)
