@@ -4,7 +4,17 @@
 
 
  รูปที่ 1
-  
+  ```
+  @startuml
+class "bottle" as class1
+class "lid"    as class2
+Class "Bottle" as class3
+ 
+class1 *--  class2
+class1 *--  class3
+
+@enduml
+  ```
   
   
 ![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuU9AoYyfoKbLoDVLLSZ9J47cEe6PN5mEgNafGAK0)
