@@ -22,7 +22,19 @@ class1 *--  class3
 
 
  รูปที่ 2
-  
+  ``` 
+@startuml
+class "NOTEBOOK" as class1
+class "paper"    as class2
+Class "cover" as class3
+Class "ridge" as class4
+ 
+class1 *--  class2
+class1 *--  class3
+class1 *--  class4
+
+@enduml
+  ```
   
   
 ![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuUBoymznTVBtzrRGqjLLA4WiI2r25KhEBqCNAifCIK_bud98pKi16W40)
