@@ -42,7 +42,19 @@ class1 *--  class4
 
 
  รูปที่ 3
-  
+```
+@startuml
+class "pen" as class1
+class "spring"    as class2
+Class "ink" as class3
+Class "body" as class4
+ 
+class1 *--  class2
+class1 *--  class3
+class1 *--  class4
+
+@enduml
+```
   
   
 ![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuIf8pLFGqjLLA2ueoinBXtCpyxBXxAJyb4ekXzIy5A1w0000)
